@@ -1,0 +1,14 @@
+# I/O pin definitions for the iceBlinkPico (iCE40UP5K-SG48ITR)
+
+# Tactile switches (active low)
+set_io -nowarn BOOT     9
+set_io -nowarn SW       38
+
+# LEDs (active low)
+set_io -nowarn LED      42
+set_io -nowarn RGB_B    39
+set_io -nowarn RGB_G    40
+set_io -nowarn RGB_R    41
+
+# 12-MHz oscillator
+set_io -nowarn clk      20
